@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/main/main",
+    "pages/login/login",
+    "pages/reg/reg",
+    "pages/pwd/pwd",
+    "pages/user/user"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#0faeff",
+    "backgroundColor": "#fbf9fe"
+  },
+  "tabBar": {
+    "color": "#7a7e83",
+    "selectedColor": "#0faeff",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/main/main",
+        "text": "首页",
+        "iconPath": "static/img/hidden_index1.png",
+        "selectedIconPath": "static/img/hidden_index2.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "娃柜",
+        "iconPath": "static/img/hidden_case1.png",
+        "selectedIconPath": "static/img/hidden_case2.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "static/img/hidden_user1.png",
+        "selectedIconPath": "static/img/hidden_user2.png"
+      }
+    ]
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "uniApp",
+  "compilerVersion": "2.6.5",
+  "usingComponents": {}
+}
