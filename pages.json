@@ -3,7 +3,7 @@
         {
             "path": "pages/main/main",
             "style": {
-                "navigationBarTitleText": "登录模板"
+                "navigationBarTitleText": "首页"
             }
         }, {
             "path": "pages/login/login",
@@ -20,7 +20,14 @@
             "style": {
                 "navigationBarTitleText": "找回密码"
             }
-        }, {
+        },
+		{
+		    "path": "pages/cas/cas",
+		    "style": {
+		        "navigationBarTitleText": "娃柜"
+		    }
+		}
+		, {
             "path": "pages/user/user",
             "style": {
                 "navigationBarTitleText": "我的"
@@ -28,9 +35,9 @@
         }
     ],
     "tabBar": {
-        "color": "#7a7e83",
-        "selectedColor": "#0faeff",
-        "backgroundColor": "#ffffff",
+        "color": "#666666",
+        "selectedColor": "#FB007E",
+        "backgroundColor": "#faf7f8",
         "list": [{
             "pagePath": "pages/main/main",
             "text": "首页",
@@ -38,7 +45,7 @@
             "selectedIconPath": "static/img/hidden_index2.png"
         },
 		{
-		    "pagePath": "pages/user/user",
+		    "pagePath": "pages/cas/cas",
 		    "text": "娃柜",
 		    "iconPath": "static/img/hidden_case1.png",
 		    "selectedIconPath": "static/img/hidden_case2.png"
@@ -50,9 +57,10 @@
         }]
     },
     "globalStyle": {
-        "navigationBarTextStyle": "white",
-        "navigationBarBackgroundColor": "#0faeff",
-        "backgroundColor": "#fbf9fe"
+        "navigationBarTextStyle": "#1f1f1f",
+        "navigationBarBackgroundColor": "#1f1f1f",
+        "backgroundColor": "#1f1f1f",
+		"color": "red"
     },
 	"condition" : { //模式配置，仅开发期间生效
 		"current": 0, //当前激活的模式(list 的索引项)
