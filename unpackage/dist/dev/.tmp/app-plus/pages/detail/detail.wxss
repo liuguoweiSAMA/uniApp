@@ -1,0 +1,86 @@
+page, page {
+  height: 100%;
+}
+.details {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: url("https://cdn.lljgame.com/wechat_carnival%2Fdetail_bg.png") repeat;
+  background-size: cover;
+}
+.details .productList {
+    padding: 0 30rpx;
+    background: url("https://cdn.lljgame.com/wechat_carnival%2Fdetail_bg_bottom.png");
+    background-size: cover;
+    height: 645rpx;
+    /* background: red; */
+}
+.details .productList .headline {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+              align-items: center;
+      font-size: 32rpx;
+      color: #FFFFFF;
+      padding-top: 30rpx;
+}
+.details .productList .proList {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: row;
+              flex-direction: row;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+              justify-content: space-between;
+      -webkit-flex-wrap: wrap;
+              flex-wrap: wrap;
+      height: 550rpx;
+      overflow: scroll;
+}
+.details .productList .card {
+      width: 330rpx;
+      height: 150rpx;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: row;
+              flex-direction: row;
+      font-size: 24rpx;
+      background: rgba(0, 0, 0, 0.3);
+      border-radius: 10px;
+      margin-top: 40rpx;
+      color: #FFFFFF;
+}
+.details .productList .card image {
+        width: 150rpx;
+        height: 150rpx;
+        margin-right: 10rpx;
+}
+.details .titImg {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+            align-items: center;
+}
+.details .titImg image {
+      width: 600rpx;
+      height: 600rpx;
+}
+

@@ -42,7 +42,7 @@
     "statusbar": {
       "immersed": "supportedDevice",
       "style": "light",
-      "background": "#0faeff"
+      "background": "#1f1f1f"
     },
     "usingComponents": true,
     "distribute": {
@@ -84,7 +84,7 @@
     "arguments": "{\"name\":\"\",\"path\":\"\",\"query\":\"\",\"id\":0}",
     "allowsInlineMediaPlayback": true,
     "safearea": {
-      "background": "#ffffff",
+      "background": "#faf7f8",
       "bottom": {
         "offset": "auto"
       }
@@ -99,9 +99,9 @@
       }
     },
     "tabBar": {
-      "color": "#7a7e83",
-      "selectedColor": "#0faeff",
-      "backgroundColor": "#ffffff",
+      "color": "#666666",
+      "selectedColor": "#FB007E",
+      "backgroundColor": "#faf7f8",
       "list": [
         {
           "pagePath": "pages/main/main",
@@ -110,7 +110,7 @@
           "selectedIconPath": "static/img/hidden_index2.png"
         },
         {
-          "pagePath": "pages/user/user",
+          "pagePath": "pages/cas/cas",
           "text": "娃柜",
           "iconPath": "static/img/hidden_case1.png",
           "selectedIconPath": "static/img/hidden_case2.png"

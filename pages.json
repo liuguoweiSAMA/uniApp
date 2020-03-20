@@ -32,7 +32,21 @@
             "style": {
                 "navigationBarTitleText": "我的"
             }
+        },{
+            "path" : "pages/detail/detail",
+			"navigationStyle" : "custom",
+			"navigationBarTitleText": "详情展示",
+            "style" : {
+				"enablePullDownRefresh": true,
+				 "navigationBarTitleText": "扭蛋机"
+			}
         }
+        ,{
+		    "path": "pages/search/search",
+		    "style": {
+		        "navigationBarTitleText": "搜索"
+		    }
+		}
     ],
     "tabBar": {
         "color": "#666666",
@@ -57,7 +71,7 @@
         }]
     },
     "globalStyle": {
-        "navigationBarTextStyle": "#1f1f1f",
+        "navigationBarTextStyle": "white",
         "navigationBarBackgroundColor": "#1f1f1f",
         "backgroundColor": "#1f1f1f",
 		"color": "red"
