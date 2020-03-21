@@ -33,9 +33,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* WEBPACK VAR INJECTION */(f
 
 /***/ }),
 /* 4 */
-/*!*****************************************************!*\
-  !*** D:/Users/14393/Documents/py/uniApp/pages.json ***!
-  \*****************************************************/
+/*!*************************************************!*\
+  !*** C:/Users/Master/Desktop/uniApp/pages.json ***!
+  \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -65,9 +65,9 @@ eval("module.exports = {\"_from\":\"@dcloudio/uni-stat@next\",\"_id\":\"@dcloudi
 
 /***/ }),
 /* 7 */
-/*!**********************************************************************!*\
-  !*** D:/Users/14393/Documents/py/uniApp/pages.json?{"type":"style"} ***!
-  \**********************************************************************/
+/*!******************************************************************!*\
+  !*** C:/Users/Master/Desktop/uniApp/pages.json?{"type":"style"} ***!
+  \******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -76,9 +76,9 @@ eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.de
 
 /***/ }),
 /* 8 */
-/*!*********************************************************************!*\
-  !*** D:/Users/14393/Documents/py/uniApp/pages.json?{"type":"stat"} ***!
-  \*********************************************************************/
+/*!*****************************************************************!*\
+  !*** C:/Users/Master/Desktop/uniApp/pages.json?{"type":"stat"} ***!
+  \*****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -114,9 +114,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 
 /***/ }),
 /* 16 */
-/*!*********************************************************!*\
-  !*** D:/Users/14393/Documents/py/uniApp/store/index.js ***!
-  \*********************************************************/
+/*!*****************************************************!*\
+  !*** C:/Users/Master/Desktop/uniApp/store/index.js ***!
+  \*****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -182,9 +182,9 @@ eval("/**\n * Copyright (c) 2014-present, Facebook, Inc.\n *\n * This source cod
 /* 35 */,
 /* 36 */,
 /* 37 */
-/*!*****************************************************!*\
-  !*** D:/Users/14393/Documents/py/uniApp/service.js ***!
-  \*****************************************************/
+/*!*************************************************!*\
+  !*** C:/Users/Master/Desktop/uniApp/service.js ***!
+  \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 

@@ -15,7 +15,7 @@
 						<image class="swiper-image" src="../../static/img/tab2.jpg" style="width: 100%;"></image>
 					</swiper-item>
 					<swiper-item>
-						<image  class="swiper-image"src="../../static/img/tab1.jpg" style="width: 100%;"></image>
+						<image  class="swiper-image" src="../../static/img/tab1.jpg" style="width: 100%;"></image>
 					</swiper-item>
 				</swiper>
 			</view>
@@ -95,9 +95,10 @@
 		flex-direction: row;
 		justify-content: space-between;
 		flex-wrap: wrap;
+	   
 		image{
 			width: 330rpx;
-			height: 180rpx;
+			height: 188rpx;
 			margin-top: 14px;
 		}
 	}
@@ -144,6 +145,9 @@
 	}
 	.content{
 		padding: 0 14.4px;
+		background: white;
+		width: 100%;
+		height: 100%;
 	}
 	.swiper-image{  
 	     width:100%;  

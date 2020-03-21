@@ -20,7 +20,7 @@ page, page {
 }
 .entrance image {
     width: 330rpx;
-    height: 180rpx;
+    height: 188rpx;
     margin-top: 14px;
 }
 .product {
@@ -79,6 +79,9 @@ page, page {
 }
 .content {
   padding: 0 14.4px;
+  background: white;
+  width: 100%;
+  height: 100%;
 }
 .swiper-image {
   width: 100%;

@@ -128,7 +128,7 @@
 	background-size: cover;
 	.productList{
 		padding:  0 30rpx;
-		background: url('https://cdn.lljgame.com/wechat_carnival%2Fdetail_bg_bottom.png');
+		background: url('../../static/bgClolor.png') repeat;
 		background-size: cover;
 		height: 645rpx;
 		
