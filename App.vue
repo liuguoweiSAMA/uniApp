@@ -8,6 +8,9 @@
 		},
 		onHide: function() {
 			console.log('App Hide');
+		},
+		globalData:{
+			url: 'https://online.lljgame.com/api/carnival'
 		}
 	}
 </script>

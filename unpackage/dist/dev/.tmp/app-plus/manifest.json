@@ -18,6 +18,8 @@
     "url": ""
   },
   "permissions": {
+    "OAuth": {},
+    "Payment": {},
     "UniNView": {
       "description": "UniNView原生渲染"
     }
@@ -74,6 +76,13 @@
       },
       "apple": {},
       "plugins": {
+        "oauth": {},
+        "payment": {
+          "weixin": {
+            "appid": "wxc2ad172ea176723c",
+            "UniversalLinks": ""
+          }
+        },
         "audio": {
           "mp3": {
             "description": "Android平台录音支持MP3格式文件"

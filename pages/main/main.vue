@@ -204,7 +204,9 @@
 				})
 			}
 		},
+		
 		onShow() {
+			
 			uni.setTabBarItem({
 				index: 0,
 				"text": "首页",
@@ -231,34 +233,47 @@
 			})
 		}
 		
-        // onLoad() {
-       //      if (!this.hasLogin) {
-       //          uni.showModal({
-       //              title: '登录',
-       //              content: '您未登录，需要登录后才能继续',
-       //              /**
-       //               * 如果需要强制登录，不显示取消按钮
-       //               */
-       //              showCancel: !this.forcedLogin,
-       //              success: (res) => {
-       //                  if (res.confirm) {
-							// /**
-							//  * 如果需要强制登录，使用reLaunch方式
-							//  */
-       //                      if (this.forcedLogin) {
-       //                          uni.reLaunch({
-       //                              url: '../login/login'
-       //                          });
-       //                      } else {
-       //                          uni.navigateTo({
-       //                              url: '../login/login'
-       //                          });
-       //                      }
-       //                  }
-       //              }
-       //          });
-       //      }
-        // }
+        onLoad() {
+			var globalData = getApp().globalData.url
+			let params = {
+				pi: '1',
+				ps: '10'
+			}
+			uni.request({
+			    url: globalData, //仅为示例，并非真实接口地址。
+			    data: params,
+				method:'GET',
+			    success: (res) => {
+			        console.log(res);
+			    }
+			});
+            if (!this.hasLogin) {
+                uni.showModal({
+                    title: '登录',
+                    content: '您未登录，需要登录后才能继续',
+                    /**
+                     * 如果需要强制登录，不显示取消按钮
+                     */
+                    showCancel: !this.forcedLogin,
+                    success: (res) => {
+                        if (res.confirm) {
+							/**
+							 * 如果需要强制登录，使用reLaunch方式
+							 */
+                            if (this.forcedLogin) {
+                                uni.reLaunch({
+                                    url: '../login/login'
+                                });
+                            } else {
+                                uni.navigateTo({
+                                    url: '../login/login'
+                                });
+                            }
+                        }
+                    }
+                });
+            }
+        }
     }
 </script>
 

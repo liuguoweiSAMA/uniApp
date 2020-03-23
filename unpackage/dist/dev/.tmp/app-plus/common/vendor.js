@@ -33,9 +33,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* WEBPACK VAR INJECTION */(f
 
 /***/ }),
 /* 4 */
-/*!*************************************************!*\
-  !*** C:/Users/Master/Desktop/uniApp/pages.json ***!
-  \*************************************************/
+/*!*****************************************************!*\
+  !*** D:/Users/14393/Documents/py/uniApp/pages.json ***!
+  \*****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -65,20 +65,20 @@ eval("module.exports = {\"_from\":\"@dcloudio/uni-stat@next\",\"_id\":\"@dcloudi
 
 /***/ }),
 /* 7 */
-/*!******************************************************************!*\
-  !*** C:/Users/Master/Desktop/uniApp/pages.json?{"type":"style"} ***!
-  \******************************************************************/
+/*!**********************************************************************!*\
+  !*** D:/Users/14393/Documents/py/uniApp/pages.json?{"type":"style"} ***!
+  \**********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;var _default = { \"pages\": { \"pages/main/main\": { \"navigationBarTitleText\": \"首页\", \"usingComponents\": {}, \"usingAutoImportComponents\": {} }, \"pages/login/login\": { \"navigationBarTitleText\": \"登录\", \"usingComponents\": { \"m-input\": \"/components/m-input\" }, \"usingAutoImportComponents\": {} }, \"pages/reg/reg\": { \"navigationBarTitleText\": \"注册\", \"usingComponents\": { \"m-input\": \"/components/m-input\" }, \"usingAutoImportComponents\": {} }, \"pages/pwd/pwd\": { \"navigationBarTitleText\": \"找回密码\", \"usingComponents\": { \"m-input\": \"/components/m-input\" }, \"usingAutoImportComponents\": {} }, \"pages/cas/cas\": { \"navigationBarTitleText\": \"娃柜\", \"usingComponents\": {}, \"usingAutoImportComponents\": {} }, \"pages/user/user\": { \"navigationBarTitleText\": \"我的\", \"usingComponents\": {}, \"usingAutoImportComponents\": {} }, \"pages/detail/detail\": { \"enablePullDownRefresh\": true, \"navigationBarTitleText\": \"扭蛋机\", \"usingComponents\": {}, \"usingAutoImportComponents\": {} }, \"pages/search/search\": { \"navigationBarTitleText\": \"搜索\", \"usingComponents\": {}, \"usingAutoImportComponents\": {} }, \"pages/plush/plush\": { \"navigationBarTitleText\": \"盲盒机\", \"usingComponents\": {}, \"usingAutoImportComponents\": {} } }, \"globalStyle\": { \"navigationBarTextStyle\": \"white\", \"navigationBarBackgroundColor\": \"#1f1f1f\", \"backgroundColor\": \"#1f1f1f\", \"color\": \"red\" } };exports.default = _default;//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJzR0FBZSxFQUFDLFNBQVEsRUFBQyxtQkFBa0IsRUFBQywwQkFBeUIsSUFBMUIsRUFBK0IsbUJBQWtCLEVBQWpELEVBQW9ELDZCQUE0QixFQUFoRixFQUFuQixFQUF1RyxxQkFBb0IsRUFBQywwQkFBeUIsSUFBMUIsRUFBK0IsbUJBQWtCLEVBQUMsV0FBVSxxQkFBWCxFQUFqRCxFQUFtRiw2QkFBNEIsRUFBL0csRUFBM0gsRUFBOE8saUJBQWdCLEVBQUMsMEJBQXlCLElBQTFCLEVBQStCLG1CQUFrQixFQUFDLFdBQVUscUJBQVgsRUFBakQsRUFBbUYsNkJBQTRCLEVBQS9HLEVBQTlQLEVBQWlYLGlCQUFnQixFQUFDLDBCQUF5QixNQUExQixFQUFpQyxtQkFBa0IsRUFBQyxXQUFVLHFCQUFYLEVBQW5ELEVBQXFGLDZCQUE0QixFQUFqSCxFQUFqWSxFQUFzZixpQkFBZ0IsRUFBQywwQkFBeUIsSUFBMUIsRUFBK0IsbUJBQWtCLEVBQWpELEVBQW9ELDZCQUE0QixFQUFoRixFQUF0Z0IsRUFBMGxCLG1CQUFrQixFQUFDLDBCQUF5QixJQUExQixFQUErQixtQkFBa0IsRUFBakQsRUFBb0QsNkJBQTRCLEVBQWhGLEVBQTVtQixFQUFnc0IsdUJBQXNCLEVBQUMseUJBQXdCLElBQXpCLEVBQThCLDBCQUF5QixLQUF2RCxFQUE2RCxtQkFBa0IsRUFBL0UsRUFBa0YsNkJBQTRCLEVBQTlHLEVBQXR0QixFQUF3MEIsdUJBQXNCLEVBQUMsMEJBQXlCLElBQTFCLEVBQStCLG1CQUFrQixFQUFqRCxFQUFvRCw2QkFBNEIsRUFBaEYsRUFBOTFCLEVBQWs3QixxQkFBb0IsRUFBQywwQkFBeUIsS0FBMUIsRUFBZ0MsbUJBQWtCLEVBQWxELEVBQXFELDZCQUE0QixFQUFqRixFQUF0OEIsRUFBVCxFQUFxaUMsZUFBYyxFQUFDLDBCQUF5QixPQUExQixFQUFrQyxnQ0FBK0IsU0FBakUsRUFBMkUsbUJBQWtCLFNBQTdGLEVBQXVHLFNBQVEsS0FBL0csRUFBbmpDLEUiLCJmaWxlIjoiNy5qcyIsInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBkZWZhdWx0IHtcInBhZ2VzXCI6e1wicGFnZXMvbWFpbi9tYWluXCI6e1wibmF2aWdhdGlvbkJhclRpdGxlVGV4dFwiOlwi6aaW6aG1XCIsXCJ1c2luZ0NvbXBvbmVudHNcIjp7fSxcInVzaW5nQXV0b0ltcG9ydENvbXBvbmVudHNcIjp7fX0sXCJwYWdlcy9sb2dpbi9sb2dpblwiOntcIm5hdmlnYXRpb25CYXJUaXRsZVRleHRcIjpcIueZu+W9lVwiLFwidXNpbmdDb21wb25lbnRzXCI6e1wibS1pbnB1dFwiOlwiL2NvbXBvbmVudHMvbS1pbnB1dFwifSxcInVzaW5nQXV0b0ltcG9ydENvbXBvbmVudHNcIjp7fX0sXCJwYWdlcy9yZWcvcmVnXCI6e1wibmF2aWdhdGlvbkJhclRpdGxlVGV4dFwiOlwi5rOo5YaMXCIsXCJ1c2luZ0NvbXBvbmVudHNcIjp7XCJtLWlucHV0XCI6XCIvY29tcG9uZW50cy9tLWlucHV0XCJ9LFwidXNpbmdBdXRvSW1wb3J0Q29tcG9uZW50c1wiOnt9fSxcInBhZ2VzL3B3ZC9wd2RcIjp7XCJuYXZpZ2F0aW9uQmFyVGl0bGVUZXh0XCI6XCLmib7lm57lr4bnoIFcIixcInVzaW5nQ29tcG9uZW50c1wiOntcIm0taW5wdXRcIjpcIi9jb21wb25lbnRzL20taW5wdXRcIn0sXCJ1c2luZ0F1dG9JbXBvcnRDb21wb25lbnRzXCI6e319LFwicGFnZXMvY2FzL2Nhc1wiOntcIm5hdmlnYXRpb25CYXJUaXRsZVRleHRcIjpcIuWog+afnFwiLFwidXNpbmdDb21wb25lbnRzXCI6e30sXCJ1c2luZ0F1dG9JbXBvcnRDb21wb25lbnRzXCI6e319LFwicGFnZXMvdXNlci91c2VyXCI6e1wibmF2aWdhdGlvbkJhclRpdGxlVGV4dFwiOlwi5oiR55qEXCIsXCJ1c2luZ0NvbXBvbmVudHNcIjp7fSxcInVzaW5nQXV0b0ltcG9ydENvbXBvbmVudHNcIjp7fX0sXCJwYWdlcy9kZXRhaWwvZGV0YWlsXCI6e1wiZW5hYmxlUHVsbERvd25SZWZyZXNoXCI6dHJ1ZSxcIm5hdmlnYXRpb25CYXJUaXRsZVRleHRcIjpcIuaJreibi+aculwiLFwidXNpbmdDb21wb25lbnRzXCI6e30sXCJ1c2luZ0F1dG9JbXBvcnRDb21wb25lbnRzXCI6e319LFwicGFnZXMvc2VhcmNoL3NlYXJjaFwiOntcIm5hdmlnYXRpb25CYXJUaXRsZVRleHRcIjpcIuaQnOe0olwiLFwidXNpbmdDb21wb25lbnRzXCI6e30sXCJ1c2luZ0F1dG9JbXBvcnRDb21wb25lbnRzXCI6e319LFwicGFnZXMvcGx1c2gvcGx1c2hcIjp7XCJuYXZpZ2F0aW9uQmFyVGl0bGVUZXh0XCI6XCLnm7Lnm5LmnLpcIixcInVzaW5nQ29tcG9uZW50c1wiOnt9LFwidXNpbmdBdXRvSW1wb3J0Q29tcG9uZW50c1wiOnt9fX0sXCJnbG9iYWxTdHlsZVwiOntcIm5hdmlnYXRpb25CYXJUZXh0U3R5bGVcIjpcIndoaXRlXCIsXCJuYXZpZ2F0aW9uQmFyQmFja2dyb3VuZENvbG9yXCI6XCIjMWYxZjFmXCIsXCJiYWNrZ3JvdW5kQ29sb3JcIjpcIiMxZjFmMWZcIixcImNvbG9yXCI6XCJyZWRcIn19Il0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///7\n");
+eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;var _default = { \"pages\": { \"pages/main/main\": { \"navigationBarTitleText\": \"首页\" }, \"pages/login/login\": { \"navigationBarTitleText\": \"登录\" }, \"pages/reg/reg\": { \"navigationBarTitleText\": \"注册\" }, \"pages/pwd/pwd\": { \"navigationBarTitleText\": \"找回密码\" }, \"pages/cas/cas\": { \"navigationBarTitleText\": \"娃柜\" }, \"pages/user/user\": { \"navigationBarTitleText\": \"我的\" }, \"pages/detail/detail\": { \"enablePullDownRefresh\": true, \"navigationBarTitleText\": \"扭蛋机\" }, \"pages/search/search\": { \"navigationBarTitleText\": \"搜索\" }, \"pages/plush/plush\": { \"navigationBarTitleText\": \"盲盒机\" } }, \"globalStyle\": { \"navigationBarTextStyle\": \"white\", \"navigationBarBackgroundColor\": \"#1f1f1f\", \"backgroundColor\": \"#1f1f1f\", \"color\": \"red\" } };exports.default = _default;//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJzR0FBZSxFQUFDLFNBQVEsRUFBQyxtQkFBa0IsRUFBQywwQkFBeUIsSUFBMUIsRUFBbkIsRUFBbUQscUJBQW9CLEVBQUMsMEJBQXlCLElBQTFCLEVBQXZFLEVBQXVHLGlCQUFnQixFQUFDLDBCQUF5QixJQUExQixFQUF2SCxFQUF1SixpQkFBZ0IsRUFBQywwQkFBeUIsTUFBMUIsRUFBdkssRUFBeU0saUJBQWdCLEVBQUMsMEJBQXlCLElBQTFCLEVBQXpOLEVBQXlQLG1CQUFrQixFQUFDLDBCQUF5QixJQUExQixFQUEzUSxFQUEyUyx1QkFBc0IsRUFBQyx5QkFBd0IsSUFBekIsRUFBOEIsMEJBQXlCLEtBQXZELEVBQWpVLEVBQStYLHVCQUFzQixFQUFDLDBCQUF5QixJQUExQixFQUFyWixFQUFxYixxQkFBb0IsRUFBQywwQkFBeUIsS0FBMUIsRUFBemMsRUFBVCxFQUFvZixlQUFjLEVBQUMsMEJBQXlCLE9BQTFCLEVBQWtDLGdDQUErQixTQUFqRSxFQUEyRSxtQkFBa0IsU0FBN0YsRUFBdUcsU0FBUSxLQUEvRyxFQUFsZ0IsRSIsImZpbGUiOiI3LmpzIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGRlZmF1bHQge1wicGFnZXNcIjp7XCJwYWdlcy9tYWluL21haW5cIjp7XCJuYXZpZ2F0aW9uQmFyVGl0bGVUZXh0XCI6XCLpppbpobVcIn0sXCJwYWdlcy9sb2dpbi9sb2dpblwiOntcIm5hdmlnYXRpb25CYXJUaXRsZVRleHRcIjpcIueZu+W9lVwifSxcInBhZ2VzL3JlZy9yZWdcIjp7XCJuYXZpZ2F0aW9uQmFyVGl0bGVUZXh0XCI6XCLms6jlhoxcIn0sXCJwYWdlcy9wd2QvcHdkXCI6e1wibmF2aWdhdGlvbkJhclRpdGxlVGV4dFwiOlwi5om+5Zue5a+G56CBXCJ9LFwicGFnZXMvY2FzL2Nhc1wiOntcIm5hdmlnYXRpb25CYXJUaXRsZVRleHRcIjpcIuWog+afnFwifSxcInBhZ2VzL3VzZXIvdXNlclwiOntcIm5hdmlnYXRpb25CYXJUaXRsZVRleHRcIjpcIuaIkeeahFwifSxcInBhZ2VzL2RldGFpbC9kZXRhaWxcIjp7XCJlbmFibGVQdWxsRG93blJlZnJlc2hcIjp0cnVlLFwibmF2aWdhdGlvbkJhclRpdGxlVGV4dFwiOlwi5omt6JuL5py6XCJ9LFwicGFnZXMvc2VhcmNoL3NlYXJjaFwiOntcIm5hdmlnYXRpb25CYXJUaXRsZVRleHRcIjpcIuaQnOe0olwifSxcInBhZ2VzL3BsdXNoL3BsdXNoXCI6e1wibmF2aWdhdGlvbkJhclRpdGxlVGV4dFwiOlwi55uy55uS5py6XCJ9fSxcImdsb2JhbFN0eWxlXCI6e1wibmF2aWdhdGlvbkJhclRleHRTdHlsZVwiOlwid2hpdGVcIixcIm5hdmlnYXRpb25CYXJCYWNrZ3JvdW5kQ29sb3JcIjpcIiMxZjFmMWZcIixcImJhY2tncm91bmRDb2xvclwiOlwiIzFmMWYxZlwiLFwiY29sb3JcIjpcInJlZFwifX0iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///7\n");
 
 /***/ }),
 /* 8 */
-/*!*****************************************************************!*\
-  !*** C:/Users/Master/Desktop/uniApp/pages.json?{"type":"stat"} ***!
-  \*****************************************************************/
+/*!*********************************************************************!*\
+  !*** D:/Users/14393/Documents/py/uniApp/pages.json?{"type":"stat"} ***!
+  \*********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -114,9 +114,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 
 /***/ }),
 /* 16 */
-/*!*****************************************************!*\
-  !*** C:/Users/Master/Desktop/uniApp/store/index.js ***!
-  \*****************************************************/
+/*!*********************************************************!*\
+  !*** D:/Users/14393/Documents/py/uniApp/store/index.js ***!
+  \*********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -182,9 +182,9 @@ eval("/**\n * Copyright (c) 2014-present, Facebook, Inc.\n *\n * This source cod
 /* 35 */,
 /* 36 */,
 /* 37 */
-/*!*************************************************!*\
-  !*** C:/Users/Master/Desktop/uniApp/service.js ***!
-  \*************************************************/
+/*!*****************************************************!*\
+  !*** D:/Users/14393/Documents/py/uniApp/service.js ***!
+  \*****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
