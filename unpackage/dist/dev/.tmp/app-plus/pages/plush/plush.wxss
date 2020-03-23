@@ -1,0 +1,34 @@
+.plush {
+  width: 100%;
+  background: url("https://cdn.lljgame.com/wechat_carnival%2Fdetail_bg.png") no-repeat;
+  background-size: cover;
+  /* background: red; */
+}
+.plush .plushList {
+    width: 100%;
+}
+.plush .plushList image {
+      width: 100%;
+      height: 1240rpx;
+}
+.plush .noes {
+    width: 230rpx;
+    height: 102rpx;
+    background: url("https://cdn.lljgame.com/wechat_carnival%2Fplay_pay.png") no-repeat;
+    background-size: cover;
+    text-align: center;
+    /* font-family:HYQiHei-HES,HYQiHei; */
+    font-weight: bold;
+    font-size: 36rpx;
+}
+.plush .five {
+    width: 230rpx;
+    height: 102rpx;
+    background: url("https://cdn.lljgame.com/wechat_carnival%2Fplay_pay.png") no-repeat;
+    background-size: cover;
+    text-align: center;
+    /* font-family:HYQiHei-HES,HYQiHei; */
+    font-weight: bold;
+    font-size: 36rpx;
+}
+

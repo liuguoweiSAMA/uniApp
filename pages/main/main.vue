@@ -3,7 +3,7 @@
 		<view class="page-section swiper">
 			<view style="position: relative;" @click="searchPage">
 				<image src="../../static/img/search.png" style="width: 32rpx;height: 32rpx;position: absolute;left: 30rpx;top: 24rpx;" mode=""></image>
-				<input type="text" placeholder="请输入您的关键字" class="search">
+				<input type="text" placeholder="请输入您的关键字" disabled class="search">
 			</view>
 			
 			<view class="page-section-spacing">
@@ -26,7 +26,7 @@
 				<image src="../../static/img/homeIndex4.png" mode=""></image>
 			</view>
 			<view class="product">
-				<view class="ordinal">
+				<view class="ordinal" @click="plush">
 					<image src="../../static/img/product1.png" mode=""></image>
 					<view class="shop_item">
 						<view style="display: inline-block;width: 213px;">
@@ -198,7 +198,39 @@
 					url: '/pages/detail/detail'
 				})
 			},
+			plush: async function () {
+				uni.navigateTo({
+					url: '/pages/plush/plush'
+				})
+			}
+		},
+		onShow() {
+			uni.setTabBarItem({
+				index: 0,
+				"text": "首页",
+				"iconPath": "static/img/hidden_index1.png",
+				"selectedIconPath": "static/img/hidden_index2.png"
+			})
+			uni.setTabBarItem({
+			  index: 1,
+			  "text": "娃柜",
+			  "iconPath": "static/img/hidden_case1.png",
+			  "selectedIconPath": "static/img/hidden_case2.png"
+			})
+			uni.setTabBarItem({
+			  index: 2,
+			  "text": "我的",
+			  "iconPath": "static/img/hidden_user1.png",
+			  "selectedIconPath": "static/img/hidden_user2.png"
+			})
+			uni.setTabBarStyle({
+			  color: '#FF0000',
+			  selectedColor: '#FB007E',
+			  backgroundColor: '#FFFFFF',
+			  borderStyle: 'white'
+			})
 		}
+		
         // onLoad() {
        //      if (!this.hasLogin) {
        //          uni.showModal({

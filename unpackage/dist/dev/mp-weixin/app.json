@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/main/main",
+    "pages/login/login",
+    "pages/reg/reg",
+    "pages/pwd/pwd",
+    "pages/cas/cas",
+    "pages/user/user",
+    "pages/detail/detail",
+    "pages/search/search",
+    "pages/plush/plush"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#1f1f1f",
+    "backgroundColor": "#1f1f1f",
+    "color": "red"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#FB007E",
+    "backgroundColor": "#faf7f8",
+    "list": [
+      {
+        "pagePath": "pages/main/main",
+        "text": "首页",
+        "iconPath": "static/img/hidden_index1.png",
+        "selectedIconPath": "static/img/hidden_index2.png"
+      },
+      {
+        "pagePath": "pages/cas/cas",
+        "text": "娃柜",
+        "iconPath": "static/img/hidden_case1.png",
+        "selectedIconPath": "static/img/hidden_case2.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "static/img/hidden_user1.png",
+        "selectedIconPath": "static/img/hidden_user2.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

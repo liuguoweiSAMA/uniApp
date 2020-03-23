@@ -47,6 +47,12 @@
 		        "navigationBarTitleText": "搜索"
 		    }
 		}
+        ,{
+            "path" : "pages/plush/plush",
+            "style" : {
+				"navigationBarTitleText": "盲盒机"
+			}
+        }
     ],
     "tabBar": {
         "color": "#666666",

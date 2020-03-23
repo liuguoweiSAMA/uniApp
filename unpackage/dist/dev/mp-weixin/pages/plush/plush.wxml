@@ -1,0 +1,1 @@
+<view class="plush"><view class="plushList"><image src="../../static/img/machine.png" mode></image></view><view style="display:flex;justify-content:space-evenly;"><view class="noes">夹一次<view style="font-size:24rpx;">￥59</view></view><view class="five">夹五 次<view style="font-size:24rpx;">￥59</view></view></view></view>

@@ -16,7 +16,10 @@
 			</view>
 		</view>
 		<view>
-			<text style="font-size: 32rpx;font-weight:600;margin-bottom: 30rpx;display: inline-block;">搜索历史</text>
+			<view>
+				<text style="font-size: 32rpx;font-weight:600;margin-bottom: 30rpx;display: inline-block;">搜索历史</text>
+				<image src="../../static/img/delete.png" mode="" class="delete" @click="Btndelete"></image>
+			</view>
 			<view class="hotLable">
 				<text>
 					长草颜团子
@@ -37,7 +40,20 @@
 			}
 		},
 		methods: {
-			
+			Btndelete(){
+				uni.showModal({
+				    title: '',
+				    content: '是否清空历史记录',
+					// mask: true,
+				    success: function (res) {
+				        if (res.confirm) {
+				            console.log('用户点击确定');
+				        } else if (res.cancel) {
+				            console.log('用户点击取消');
+				        }
+				    }
+				});
+			}
 		}
 	}
 </script>
@@ -47,6 +63,13 @@
 		width: 100%;
 		height: 100%;
 		padding: 0 30rpx;
+		.delete{
+			width: 36rpx;
+			height: 36rpx;
+			float: right;
+			vertical-align: middle;
+			margin-top: 15rpx;
+		}
 		.search{
 				 /* border-image:linear-gradient(90deg, rgba(251,0,126,1), rgba(253,109,126,1)) 1 1; */
 				background:rgba(255,255,255,1);

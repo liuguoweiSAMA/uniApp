@@ -1,0 +1,122 @@
+page, page {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.cas {
+  /* background: url('') no-repeat; */
+  /* background: red; */
+  background: -webkit-linear-gradient(top, #c100e4 0%, #6000fd 57%, #2e00c4 100%);
+  background: linear-gradient(180deg, #c100e4 0%, #6000fd 57%, #2e00c4 100%);
+  /* background: url(../../static/img/showBg.png); */
+  background-size: cover;
+  padding: 0 26rpx;
+  width: 100%;
+  /* height: 100%; */
+}
+.cas .extract {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+            align-items: center;
+    /* margin-top: 48rpx; */
+}
+.cas .extract .checkAll {
+      font-size: 28rpx;
+      color: #FFFFFF;
+      /* margin-left: 20rpx; */
+}
+.cas .extract .Pinkage {
+      font-size: 20rpx;
+      color: #F8F8F8;
+      font-weight: 400;
+}
+.cas .extract button {
+      width: 280rpx;
+      height: 96rpx;
+      border-radius: 24px;
+      color: #FFFFFF;
+      font-size: 30rpx;
+      line-height: 96rpx;
+      background: -webkit-linear-gradient(left, #ff007c 0%, #ff757e 100%);
+      background: linear-gradient(90deg, #ff007c 0%, #ff757e 100%);
+}
+.cas .titTab {
+    width: calc(100% + 52rpx);
+    margin-left: -26rpx;
+    height: 128rpx;
+    background: url("https://cdn.lljgame.com/wechat_carnival%2FshowCase_title.png") no-repeat;
+    background-size: cover;
+    font-size: 28rpx;
+    color: #FFFFFF;
+    line-height: 80rpx;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+    -webkit-justify-content: space-evenly;
+            justify-content: space-evenly;
+    font-weight: 400;
+    /* padding: 0 -26rpx; */
+    /* position:absolute; */
+}
+.cas .titTab .active {
+      height: 70rpx;
+      color: #F8F8F8;
+      font-weight: 600;
+      border-bottom: 4rpx solid #FFFFFF;
+}
+.cas .faherShelves {
+    width: 100%;
+    height: calc(100% - 264rpx);
+    /* margin-top: 20rpx; */
+}
+.cas .faherShelves .shelves {
+      background: url("https://cdn.lljgame.com/wechat_carnival%2FshowCase_bg.png") 0 -55rpx no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+      /* .uni-radio-input uni-radio-input-checked{ */
+      /* border-color:red !important; */
+      /* background-color:red !important; */
+      /* } */
+      /* border: 10px solid white; */
+      /* background: red; */
+}
+.cas .faherShelves .shelves .cabinet {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: row;
+                flex-direction: row;
+        -webkit-flex-wrap: wrap;
+                flex-wrap: wrap;
+        margin-left: 20rpx;
+        margin-top: 20rpx;
+}
+.cas .faherShelves .shelves .cabinet .productId {
+          width: 150rpx;
+          height: 206rpx;
+          border-radius: 10px;
+          background: white;
+          margin-left: 9rpx;
+          margin-right: 8rpx;
+          margin-top: 20rpx;
+          position: relative;
+}
+.cas .faherShelves .shelves .cabinet .radio .uni-radio-input.uni-radio-input-checked {
+          border: none !important;
+}
+.cas .faherShelves .shelves .cabinet .radio {
+          width: 36rpx;
+          height: 36rpx;
+          position: absolute;
+          left: 10rpx;
+          top: 0rpx;
+}
+
