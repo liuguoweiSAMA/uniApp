@@ -8,7 +8,10 @@
     "pages/user/user",
     "pages/detail/detail",
     "pages/search/search",
-    "pages/plush/plush"
+    "pages/plush/plush",
+    "pages/coupon/coupon",
+    "pages/number/number",
+    "pages/site/site"
   ],
   "subPackages": [],
   "window": {
@@ -42,6 +45,5 @@
       }
     ]
   },
-  "usingComponents": {},
-  "sitemapLocation": "sitemap.json"
+  "usingComponents": {}
 }

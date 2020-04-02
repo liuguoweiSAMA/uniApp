@@ -1,6 +1,7 @@
 <template>
     <view class="content">
 		<view class="page-section swiper">
+			<!-- <button @click="getInfo" open-type='getUserInfo'>点击1</button> -->
 			<view style="position: relative;" @click="searchPage">
 				<image src="../../static/img/search.png" style="width: 32rpx;height: 32rpx;position: absolute;left: 30rpx;top: 24rpx;" mode=""></image>
 				<input type="text" placeholder="请输入您的关键字" disabled class="search">
@@ -202,11 +203,45 @@
 				uni.navigateTo({
 					url: '/pages/plush/plush'
 				})
+			},
+			getInfo: async function () {
+				let that = this
+				// let globalData = getApp().globalData
+			// 	uni.login({
+			// 		  provider: 'weixin',
+			// 	      success: res_login => {
+			// 		    getApp().globalData.openId = res_login.code
+			// 			// globalData.openId = res_login.code
+			// 	        console.log('-------获取code-------')
+			// 		    console.log(res_login)
+			//              uni.getUserInfo({
+			// 				provider: 'weixin',
+			// 				success: function(infoRes) {
+			// 					// getApp().globalData.errcode = 0
+			// 					// let globalData = getApp().globalData
+			// 					let params = {
+			// 						userInfo: infoRes
+			// 					}
+			// 					uni.request({
+			// 						url: 'https://online.lljgame.com/api/carnival/user/wx/login',
+			// 					    data: params,
+			// 						method:'POST',
+			// 					    success: (res) => {
+			// 					        console.log(res);
+			// 					    },fail(val) {
+			// 					    	console.log(val)
+			// 					    }
+			// 					});
+			// 				},fail(res) {
+			// 					console.log(res)
+			// 				}
+			// 			});
+			// 	      }
+			// 	});
 			}
 		},
 		
 		onShow() {
-			
 			uni.setTabBarItem({
 				index: 0,
 				"text": "首页",
@@ -231,48 +266,70 @@
 			  backgroundColor: '#FFFFFF',
 			  borderStyle: 'white'
 			})
-		}
-		
+		},
         onLoad() {
-			var globalData = getApp().globalData.url
-			let params = {
-				pi: '1',
-				ps: '10'
-			}
-			uni.request({
-			    url: globalData, //仅为示例，并非真实接口地址。
-			    data: params,
-				method:'GET',
-			    success: (res) => {
-			        console.log(res);
-			    }
-			});
-            if (!this.hasLogin) {
-                uni.showModal({
-                    title: '登录',
-                    content: '您未登录，需要登录后才能继续',
-                    /**
-                     * 如果需要强制登录，不显示取消按钮
-                     */
-                    showCancel: !this.forcedLogin,
-                    success: (res) => {
-                        if (res.confirm) {
-							/**
-							 * 如果需要强制登录，使用reLaunch方式
-							 */
-                            if (this.forcedLogin) {
-                                uni.reLaunch({
-                                    url: '../login/login'
-                                });
-                            } else {
-                                uni.navigateTo({
-                                    url: '../login/login'
-                                });
-                            }
-                        }
-                    }
-                });
-            }
+			this.getInfo()
+			
+			// uni.getUserInfo({
+			// 	provider: 'weixin',
+			// 	success: function(infoRes) {
+			// 		globalData.errcode = 0
+			// 		// globalData.userInfo = userInfo
+			// 		let params = {
+			// 			userInfo : globalData
+			// 		}
+			// 		uni.request({
+			// 			url: 'api/user/wx/login', //仅为示例，并非真实接口地址。
+			// 			data: params,
+			// 			method:'POST',
+			// 			success: (res) => {
+			// 				console.log(res);
+			// 			}
+			// 		});
+			// 	},fail(res) {
+			// 		console.log(res)
+			// 	}
+			// });
+			// var globalData = getApp().globalData.url
+			// let params = {
+			// 	pi: '1',
+			// 	ps: '10'
+			// }
+			
+			// uni.request({
+			//     url: 'api/carnival', //仅为示例，并非真实接口地址。
+			//     data: params,
+			// 	method:'GET',
+			//     success: (res) => {
+			//         console.log(res);
+			//     }
+			// });
+       //      if (!this.hasLogin) {
+       //          uni.showModal({
+       //              title: '登录',
+       //              content: '您未登录，需要登录后才能继续',
+       //              /**
+       //               * 如果需要强制登录，不显示取消按钮
+       //               */
+       //              showCancel: !this.forcedLogin,
+       //              success: (res) => {
+       //                  if (res.confirm) {
+							// /** 
+							//  * 如果需要强制登录，使用reLaunch方式
+							//  */
+       //                      if (this.forcedLogin) {
+       //                          uni.reLaunch({
+       //                              url: '../login/login'
+       //                          });
+       //                      } else {
+       //                          uni.navigateTo({
+       //                              url: '../login/login'
+       //                          });
+       //                      }
+       //                  }
+       //              }
+       //          });
+       //      }
         }
     }
 </script>

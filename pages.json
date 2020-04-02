@@ -53,6 +53,24 @@
 				"navigationBarTitleText": "盲盒机"
 			}
         }
+        ,{
+            "path" : "pages/coupon/coupon",
+            "style" : {
+				"navigationBarTitleText": "选择优惠卷"
+			}
+        }
+        ,{
+            "path" : "pages/number/number",
+            "style" : {
+				"navigationBarTitleText": "手机号"
+			}
+        }
+        ,{
+            "path" : "pages/site/site",
+            "style" : {
+				"navigationBarTitleText": "地址管理"
+			}
+        }
     ],
     "tabBar": {
         "color": "#666666",

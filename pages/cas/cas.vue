@@ -20,29 +20,17 @@
 					<view class="productId" style="">
 							<image src="../../static/img/product2.png" style="width: 150rpx;height: 150rpx;" mode=""></image>
 						    <view style="font-size: 20rpx;color: #333333;margin-left: 6rpx;">长草颜团子</view>
-							<radio-group @change="radioChange">
-								<radio color="#fc007c" class="radio"/>
+							<radio-group @click="radioChange" >
+								<radio color="#fc007c" :checked="checkedRadio"   class="radio"/>
 							</radio-group>
-					</view>
-					<view class="productId" >
-							<image src="../../static/img/product2.png" style="width: 150rpx;height: 150rpx;" mode=""></image>
-						    <view style="font-size: 20rpx;color: #333333;margin-left: 6rpx;">长草颜团子</view>
-					</view>
-					<view class="productId" >
-							<image src="../../static/img/product2.png" style="width: 150rpx;height: 150rpx;" mode=""></image>
-						    <view style="font-size: 20rpx;color: #333333;margin-left: 6rpx;">长草颜团子</view>
-					</view>
-					<view class="productId" >
-							<image src="../../static/img/product2.png" style="width: 150rpx;height: 150rpx;" mode=""></image>
-						    <view style="font-size: 20rpx;color: #333 333;margin-left: 6rpx;">长草颜团子</view>
 					</view>
 				</view>
 				<image src="../../static/img/bottom.png" style="width: 100%;height: 34rpx;" mode=""></image>
 			</view>
 		</view>
 		<view class="extract" v-if="buy">
-			<radio-group @change="radioChange" style="margin-left: 34rpx;">
-				<radio color="#fc007c" class="radio"/>
+			<radio-group @click="radioChanges" style="margin-left: 34rpx;">
+				<radio color="#fc007c" :checked="buyRadio" class="radio"/>
 			</radio-group>
 			<text class="checkAll">
 				全选
@@ -62,7 +50,9 @@
 		data() {
 			return {
 				isActive: 1,
-				buy: false
+				buy: false,
+				checkedRadio: false,
+				buyRadio: false
 			}
 		},
 		methods: {
@@ -70,9 +60,12 @@
 				this.isActive = val
 			},
 			radioChange(evt){
-				this.buy = true
-				console.log(evt)
-			}
+				this.checkedRadio = !this.checkedRadio
+				this.buy = !this.buy
+			},
+			radioChanges(){
+				this.buyRadio = !this.buyRadio
+			}	
 		},
 		onShow() {
 			uni.setTabBarItem({

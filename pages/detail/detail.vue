@@ -155,7 +155,7 @@
 	background-size: cover;
 	.productList{
 		/* padding:  0 30rpx; */
-		background: url('http://m.qpic.cn/psc?/V12lxWdB1s9Mfe/n.zGh5iTxIbbdjg4.d1VA5Hzvcxs13k6XcmFi673BijAipeD0hcNmBzsGaxzxp*cvt0PL9nPy*cthjnlQArtgQ!!/mnull&bo=3AXEBtwFxAYDByI!&rf=photolist&t=5') no-repeat;
+		background: url('http://39.107.56.148/image/bgClolor.png') no-repeat;
 		/* background: red; */
 		background-size: 100% 100%;
 		height:calc(100vh - 600rpx);

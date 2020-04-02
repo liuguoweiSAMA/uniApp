@@ -1,0 +1,94 @@
+.coupon {
+  width: 100%;
+  height: 100%;
+  padding: 20rpx;
+  /* background: #F8F8F8; */
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.coupon .title {
+    color: #C100E4;
+    font-size: 24rpx;
+    height: 96rpx;
+    background: #f7edf7;
+    padding: 16rpx 20rpx;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+            align-items: center;
+    /* text-align: center; */
+    /* line-height: 96rpx; */
+}
+.coupon .cards {
+    background: #F8F8F8;
+    height: 160rpx;
+    margin-top: 30rpx;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+            align-items: center;
+}
+.coupon .cards .discount {
+      height: 112rpx;
+      width: 120rpx;
+      padding-left: 32rpx;
+      line-height: 100rpx;
+      border-right: 2rpx dashed #C8C7CC;
+      color: #FB007E;
+      font-size: 40rpx;
+      font-weight: 600;
+}
+.coupon .cards .mes {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+              flex-direction: column;
+      padding-left: 30rpx;
+      line-height: 38rpx;
+}
+.coupon .cards .mes .name {
+        font-size: 28rpx;
+        font-weight: 600;
+}
+.coupon .cards .mes .ones {
+        color: #FB007E;
+        font-size: 24rpx;
+        font-weight: 400;
+}
+.coupon .cards .mes .time {
+        color: #999999;
+        font-size: 24rpx;
+}
+.coupon .cards .button {
+      background: -webkit-linear-gradient(left, #ff007c 0%, #ff757e 100%);
+      background: linear-gradient(90deg, #ff007c 0%, #ff757e 100%);
+      width: 112rpx;
+      height: 64rpx;
+      border-radius: 24px;
+      font-size: 28rpx;
+      color: #FFFFFF;
+      text-align: center;
+      line-height: 64rpx;
+      margin-left: 76rpx;
+}
+

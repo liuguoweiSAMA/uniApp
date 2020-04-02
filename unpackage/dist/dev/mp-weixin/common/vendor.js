@@ -7611,9 +7611,9 @@ module.exports = g;
 
 /***/ }),
 /* 4 */
-/*!*************************************************!*\
-  !*** C:/Users/Master/Desktop/uniApp/pages.json ***!
-  \*************************************************/
+/*!*****************************************************!*\
+  !*** D:/Users/14393/Documents/py/uniApp/pages.json ***!
+  \*****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -8518,20 +8518,20 @@ module.exports = {"_from":"@dcloudio/uni-stat@next","_id":"@dcloudio/uni-stat@2.
 
 /***/ }),
 /* 7 */
-/*!******************************************************************!*\
-  !*** C:/Users/Master/Desktop/uniApp/pages.json?{"type":"style"} ***!
-  \******************************************************************/
+/*!**********************************************************************!*\
+  !*** D:/Users/14393/Documents/py/uniApp/pages.json?{"type":"style"} ***!
+  \**********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = { "pages": { "pages/main/main": { "navigationBarTitleText": "首页", "usingComponents": {}, "usingAutoImportComponents": {} }, "pages/login/login": { "navigationBarTitleText": "登录", "usingComponents": { "m-input": "/components/m-input" }, "usingAutoImportComponents": {} }, "pages/reg/reg": { "navigationBarTitleText": "注册", "usingComponents": { "m-input": "/components/m-input" }, "usingAutoImportComponents": {} }, "pages/pwd/pwd": { "navigationBarTitleText": "找回密码", "usingComponents": { "m-input": "/components/m-input" }, "usingAutoImportComponents": {} }, "pages/cas/cas": { "navigationBarTitleText": "娃柜", "usingComponents": {}, "usingAutoImportComponents": {} }, "pages/user/user": { "navigationBarTitleText": "我的", "usingComponents": {}, "usingAutoImportComponents": {} }, "pages/detail/detail": { "enablePullDownRefresh": true, "navigationBarTitleText": "扭蛋机", "usingComponents": {}, "usingAutoImportComponents": {} }, "pages/search/search": { "navigationBarTitleText": "搜索", "usingComponents": {}, "usingAutoImportComponents": {} }, "pages/plush/plush": { "navigationBarTitleText": "盲盒机", "usingComponents": {}, "usingAutoImportComponents": {} } }, "globalStyle": { "navigationBarTextStyle": "white", "navigationBarBackgroundColor": "#1f1f1f", "backgroundColor": "#1f1f1f", "color": "red" } };exports.default = _default;
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = { "pages": { "pages/main/main": { "navigationBarTitleText": "首页" }, "pages/login/login": { "navigationBarTitleText": "登录" }, "pages/reg/reg": { "navigationBarTitleText": "注册" }, "pages/pwd/pwd": { "navigationBarTitleText": "找回密码" }, "pages/cas/cas": { "navigationBarTitleText": "娃柜" }, "pages/user/user": { "navigationBarTitleText": "我的" }, "pages/detail/detail": { "enablePullDownRefresh": true, "navigationBarTitleText": "扭蛋机" }, "pages/search/search": { "navigationBarTitleText": "搜索" }, "pages/plush/plush": { "navigationBarTitleText": "盲盒机" }, "pages/coupon/coupon": { "navigationBarTitleText": "选择优惠卷" }, "pages/number/number": { "navigationBarTitleText": "手机号" }, "pages/site/site": { "navigationBarTitleText": "地址管理" } }, "globalStyle": { "navigationBarTextStyle": "white", "navigationBarBackgroundColor": "#1f1f1f", "backgroundColor": "#1f1f1f", "color": "red" } };exports.default = _default;
 
 /***/ }),
 /* 8 */
-/*!*****************************************************************!*\
-  !*** C:/Users/Master/Desktop/uniApp/pages.json?{"type":"stat"} ***!
-  \*****************************************************************/
+/*!*********************************************************************!*\
+  !*** D:/Users/14393/Documents/py/uniApp/pages.json?{"type":"stat"} ***!
+  \*********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -8665,9 +8665,9 @@ function normalizeComponent (
 
 /***/ }),
 /* 15 */
-/*!*****************************************************!*\
-  !*** C:/Users/Master/Desktop/uniApp/store/index.js ***!
-  \*****************************************************/
+/*!*********************************************************!*\
+  !*** D:/Users/14393/Documents/py/uniApp/store/index.js ***!
+  \*********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10457,9 +10457,9 @@ if (hadRuntime) {
 /* 34 */,
 /* 35 */,
 /* 36 */
-/*!*************************************************!*\
-  !*** C:/Users/Master/Desktop/uniApp/service.js ***!
-  \*************************************************/
+/*!*****************************************************!*\
+  !*** D:/Users/14393/Documents/py/uniApp/service.js ***!
+  \*****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 

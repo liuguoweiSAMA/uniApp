@@ -4,13 +4,17 @@
 			console.log('App Launch');
 		},
 		onShow: function() {
-			console.log('App Show');
-		},
+			console.log('App Show'); 
+ 		},
 		onHide: function() {
 			console.log('App Hide');
 		},
 		globalData:{
-			url: 'https://online.lljgame.com/api/carnival'
+			// url: 'https://online.lljgame.com/api/carnival',
+			token:'',
+			openId: '',
+			userInfo: '',
+			errcode: ''
 		}
 	}
 </script>

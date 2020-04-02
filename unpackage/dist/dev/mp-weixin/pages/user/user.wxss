@@ -1,0 +1,130 @@
+.content {
+  width: 100%;
+  /* height: 100%; */
+  background: -webkit-linear-gradient(top, #ae00e9 0%, #6000fd 57%, #2e00c4 100%);
+  background: linear-gradient(180deg, #ae00e9 0%, #6000fd 57%, #2e00c4 100%);
+}
+.content .container {
+    width: 100%;
+    height: 100%;
+    background: url("http://39.107.56.148/image/bg1.png") no-repeat 100% 100%;
+    background-size: cover;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+            align-items: center;
+}
+.content .container .CaPut {
+      height: 384rpx;
+      width: 100%;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+              align-items: center;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+              justify-content: center;
+}
+.content .container .CaPut .CaPutDiv {
+        width: 310rpx;
+        height: 200rpx;
+        background: url("http://39.107.56.148/image/head_bg1.png") no-repeat 100%;
+        background-size: cover;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+                align-items: center;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+                justify-content: center;
+}
+.content .container .CaPut .CaPutDiv .ImgBorder {
+          width: 161rpx;
+          height: 161rpx;
+          border-radius: 50%;
+          border: 3px solid #d27df3;
+          overflow: hidden;
+          padding: 2px;
+}
+.content .container .CaPut .CaPutDiv .ImgBorder image {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+}
+.content .container .contents {
+      width: 690rpx;
+      height: 600rpx;
+      background: url("http://39.107.56.148/image/user_bg.png") no-repeat;
+      background-size: contain;
+}
+.content .container .contents .ul {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+                justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+                align-items: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        margin-top: 25rpx;
+}
+.content .container .contents .ul ._li {
+          height: 140rpx;
+          line-height: 92rpx;
+          margin-top: 5rpx;
+          font-size: 24rpx;
+          color: #FFFFFF;
+          width: 600rpx;
+          font-weight: 600;
+          /* background: red; */
+          /* background: url("http://39.107.56.148/image/rigt.png")  no-repeat; */
+}
+.content .container .contents .ul ._li .icon {
+            float: left;
+            width: 44rpx;
+            height: 44rpx;
+            margin-top: 28rpx;
+            margin-right: 20rpx;
+}
+.content .container .contents .ul ._li .right {
+            width: 28rpx;
+            height: 28rpx;
+            float: right;
+            vertical-align: middle;
+            margin-top: 30rpx;
+}
+.content .container .button {
+      width: 690rpx;
+      height: 96rpx;
+      background: -webkit-linear-gradient(left, #ff007c 0%, #ff757e 100%);
+      background: linear-gradient(90deg, #ff007c 0%, #ff757e 100%);
+      border-radius: 24px;
+      text-align: center;
+      line-height: 96rpx;
+      font-size: 28rpx;
+      color: #FFFFFF;
+      margin-top: 108rpx;
+}
+

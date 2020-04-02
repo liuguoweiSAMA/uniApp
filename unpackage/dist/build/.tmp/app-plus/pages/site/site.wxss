@@ -1,0 +1,75 @@
+.site {
+  width: 100%;
+  background: #F8F8F8;
+  padding: 30rpx;
+}
+.site .delete {
+    width: 120rpx;
+    height: 230rpx;
+    background: #E9E9E9;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 8;
+}
+.site .delete image {
+      width: 36rpx;
+      height: 36rpx;
+      position: absolute;
+      right: 43rpx;
+      top: 98rpx;
+}
+.site .card {
+    width: 100%;
+    height: 230rpx;
+    background: white;
+    -webkit-transform: translateX(0rpx);
+            transform: translateX(0rpx);
+    -webkit-transition: all .2s ease-in 0ms;
+    transition: all .2s ease-in 0ms;
+    /* padding: 0rpx 40rpx; */
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+.site .card .up {
+      height: 142rpx;
+      border-bottom: 2rpx solid #E9E9E9;
+}
+.site .card .up .name {
+        color: #000000;
+        font-size: 28rpx;
+        font-weight: 600;
+        padding: 30rpx 40rpx;
+        padding-bottom: 22rpx;
+}
+.site .card .up .address {
+        color: #333333;
+        font-size: 24rpx;
+        padding-left: 40rpx;
+}
+.site .card .down {
+      color: #000000;
+      font-size: 24rpx;
+      line-height: 80rpx;
+      text-indent: 40rpx;
+}
+.site .button {
+    background: -webkit-linear-gradient(left, #ff007c 0%, #ff757e 100%);
+    background: linear-gradient(90deg, #ff007c 0%, #ff757e 100%);
+    height: 96rpx;
+    border-radius: 24px;
+    line-height: 96rpx;
+    text-align: center;
+    font-size: 28rpx;
+    color: #FFFFFF;
+    margin-top: 60rpx;
+}
+.site .active {
+    -webkit-transform: translateX(-120rpx);
+            transform: translateX(-120rpx);
+    -webkit-transition: all .2s ease-in 0ms;
+    transition: all .2s ease-in 0ms;
+}
+
