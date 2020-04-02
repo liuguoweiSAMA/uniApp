@@ -1,5 +1,5 @@
 ### 页面大致图
- <img src="http://39.107.56.148/image/show1.jpg" width="80px">
+ <img src="http://39.107.56.148/image/show1.jpg" width="200px">
 ![Image text](http://39.107.56.148/image/show2.jpg)
 ![Image text](http://39.107.56.148/image/show3.jpg)
 ![Image text](http://39.107.56.148/image/show4.jpg)
